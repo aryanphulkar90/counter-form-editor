@@ -1,10 +1,9 @@
 import React from 'react'
-import LoginForm from './components/LoginForm'
-
+import Body from './components/Body'
 const App: React.FC = () => {
   return (
     <>
-      <LoginForm/>
+      <Body/>
     </>
   )
 }
