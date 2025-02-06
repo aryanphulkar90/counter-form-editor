@@ -34,7 +34,10 @@ const UserForm = () => {
             email : formik.values.email,
             address : formik.values.address,
             phone : formik.values.phone,
-            password: formik.values.password    
+            password: formik.values.password,
+            count: 0,
+            notes: [],
+            currentNote: "",    
         }));
         formik.resetForm();
         navigate("/notes");
